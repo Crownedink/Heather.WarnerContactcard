@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Contact</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      text-align: center;
+      padding: 30px;
+      border-radius: 20px;
+      background: #1e293b;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      max-width: 350px;
+      width: 90%;
+    }
+
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      margin: 10px 0 5px;
+    }
+
+    p {
+      color: #94a3b8;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: block;
+      margin: 10px 0;
+      padding: 12px;
+      border-radius: 10px;
+      text-decoration: none;
+      color: white;
+      background: #3b82f6;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #2563eb;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="profile.jpg" alt="Profile">
+    <h1>Your Name</h1>
+    <p>Short description or tagline</p>
+
+    <a class="btn" href="tel:+1234567890">📞 Call Me</a>
+    <a class="btn" href="sms:+1234567890">💬 Text Me</a>
+    <a class="btn" href="mailto:you@email.com">📧 Email</a>
+    <a class="btn" href="https://yourwebsite.com">🌐 Website</a>
+    <a class="btn" href="https://instagram.com/yourhandle">📸 Instagram</a>
+  </div>
+
+</body>
+</html>
