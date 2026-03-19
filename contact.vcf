@@ -1,9 +1,8 @@
 BEGIN:VCARD
 VERSION:3.0
-FN:Your Name
-ORG:Your Business Name
-TITLE:Your Title
-TEL;TYPE=CELL:+1234567890
-EMAIL:you@email.com
-URL:https://yourusername.github.io/contact-card/
+FN:Heather Warner
+ORG:PepsiCo
+TITLE:Sale Rep.
+CELL:+225-363-3052
+EMAIL:Heather.Warner@PepsiCo.com
 END:VCARD
